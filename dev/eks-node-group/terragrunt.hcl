@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "git@github.com:gozem-test/eks-node-group.git"
+  source = "../terrafrom/eks-node-group-building-block"
 }
 
 dependency "cluster" {

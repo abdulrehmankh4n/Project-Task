@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "git@github.com:gozem-test/instance-profile.git"
+  source = "../terrafrom/instance-profile-building-block"
 }
 
 dependency "iam-role" {

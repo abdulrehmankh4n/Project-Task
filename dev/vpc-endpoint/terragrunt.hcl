@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "git@github.com:gozem-test/vpc-endpoint.git"
+  source = "../terrafrom/vpc-endpoint.git"
 }
 
 dependency "vpc" {

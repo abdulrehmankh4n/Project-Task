@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "git@github.com:gozem-test/route-table.git"
+  source = "../terrafrom/route-table-building-block"
 }
 
 dependency "vpc" {

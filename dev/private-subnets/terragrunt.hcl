@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "git@github.com:gozem-test/subnet.git"
+  source = "../terrafrom/subnet-building-block"
 }
 
 dependency "vpc" {

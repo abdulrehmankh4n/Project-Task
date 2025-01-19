@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "git@github.com:gozem-test/eks-cluster.git"
+  source = "../terrafrom/eks-cluster-building-block"
 }
 
 dependency "private-subnets" {

@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "git@github.com:gozem-test/eip.git"
+  source = "../terrafrom/elastic-ip-building-block"
 }
 
 dependency "vpc" {

@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "git@github.com:gozem-test/ec2.git"
+  source = "../terrafrom/ec2-building-block"
 }
 
 dependency "public-subnets" {

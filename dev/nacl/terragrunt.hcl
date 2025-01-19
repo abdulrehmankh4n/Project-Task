@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "git@github.com:gozem-test/nacl.git"
+  source = "../terrafrom/nacl-building-block"
 }
 
 dependency "vpc" {

@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "git@github.com:gozem-test/iam-role.git"
+  source = "../terrafrom/iam-role-building-block"
 }
 
 inputs = {

@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "git@github.com:gozem-test/vpc.git"
+  source = "../terrafrom/VPC-building-block"
 }
 
 inputs = {

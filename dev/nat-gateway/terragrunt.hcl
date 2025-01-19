@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "git@github.com:gozem-test/nat-gateway.git"
+  source = "../terrafrom/nat-gateway-building-block"
 }
 
 dependency "eip" {

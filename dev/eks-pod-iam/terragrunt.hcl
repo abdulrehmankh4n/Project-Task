@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "git@github.com:gozem-test/iam-oidc.git"
+  source = "../terrafrom/iam-oidc-building-block"
 }
 
 dependency "cluster" {
