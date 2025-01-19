@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "../terrafrom/VPC-building-block"
+  source = "../terrafrom/vpc-building-block"
 }
 
 inputs = {
